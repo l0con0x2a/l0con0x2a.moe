@@ -6,7 +6,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://l0con0x2a.moe',
+	site: 'https://blog.l0con0x2a.moe',
 	redirects: {
 		'/blog': '/',
 		'/about': '/',
