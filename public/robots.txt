@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://l0con0x2a.moe/sitemap-index.xml
