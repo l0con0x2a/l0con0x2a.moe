@@ -6,5 +6,5 @@ export const SOCIAL_LINKS = [
 	{ label: 'X', href: 'https://x.com/l0con0x2a/' },
 	{ label: 'GitHub', href: 'https://github.com/l0con0x2a/' },
 	{ label: 'Codeberg', href: 'https://codeberg.org/l0con/' },
-	{ label: 'pixivFANBOX', href: 'https://www.fanbox.cc/@l0con0x2a/' },
+	{ label: 'pixivFANBOX', href: 'https://l0con0x2a.fanbox.cc/' },
 ];
