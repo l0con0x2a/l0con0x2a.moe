@@ -1,6 +1,5 @@
 ---
 import { SITE_TITLE, SOCIAL_LINKS } from '../consts';
-import HeaderLink from './HeaderLink.astro';
 ---
 
 <header>
@@ -8,11 +7,7 @@ import HeaderLink from './HeaderLink.astro';
 		<h2>
 			<a href="/">{SITE_TITLE}</a>
 		</h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
+
 		<div class="social-links">
 			{SOCIAL_LINKS.map(({ label, href }) => (
 				<a href={href} target="_blank" rel="me noopener noreferrer">{label}</a>
@@ -32,8 +27,7 @@ import HeaderLink from './HeaderLink.astro';
 		font-size: 1em;
 	}
 
-	h2 a,
-	h2 a.active {
+	h2 a {
 		text-decoration: none;
 	}
 	nav {
@@ -47,10 +41,6 @@ import HeaderLink from './HeaderLink.astro';
 		color: var(--black);
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
 	}
 	.social-links {
 		display: flex;
